@@ -3,6 +3,11 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 
 - The current application version has been developed and tested on CentOS 7 and Windows 10.
 
+# Developers:
+- Mustafa Altay Karamuftuoglu: <karamuft@usc.edu>
+- Haolin Cong: <haolinco@usc.edu>
+- Massoud Pedram: <pedram@usc.edu>
+
 # Requirements:
 - Certificates (Linux OS only): If the installer doesn't start and the error is about certificates, use the following command:
   $ sudo ln -s /etc/ssl/certs/ca-bundle.trust.crt /etc/ssl/certs/ca-certificates.crt
@@ -60,13 +65,8 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
 
-# Developers:
-- Mustafa Altay Karamuftuoglu: <karamuft@usc.edu>
-- Haolin Cong: <haolinco@usc.edu>
-- Massoud Pedram: <pedram@usc.edu>
-
 # License:
-Copyright (C) 2021 Mustafa Altay Karamuftuoglu (<karamuft@usc.edu>), Haolin Cong (<haolinco@usc.edu>), and Massoud Pedram (<pedram@usc.edu>)
+Copyright (C) 2021 Mustafa Altay Karamuftuoglu, Haolin Cong, and Massoud Pedram
 
 SPORT lab, University of Southern California, Los Angeles, CA 90089. All rights reserved. (https://sportlab.usc.edu/)
 
