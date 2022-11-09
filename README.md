@@ -17,8 +17,8 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 ## Linux Instructions
 ### Preparation for Installation:
 1. Extract tar.gz file
-..* R-click
-..* Open with Archive Manager
+⋅⋅* R-click
+⋅⋅* Open with Archive Manager
 	* Select folder
 	* L-click [Extract]
 	* Select location
