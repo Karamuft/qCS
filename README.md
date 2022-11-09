@@ -4,11 +4,32 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 - The current application version has been developed and tested on CentOS 7 and Windows 10.
 
 # Requirements:
+- Certificates (Linux OS only): If the installer doesn't start and the error is about certificates, use the following command:
+  $ sudo ln -s /etc/ssl/certs/ca-bundle.trust.crt /etc/ssl/certs/ca-certificates.crt
+  
+- JoSIM (Linux OS only): It is user's responsibility to satisfy JoSIM requirements (setting up the environment and installing packages). For details, visit https://joeydelp.github.io/JoSIM/#linux
+  
 - MATLAB Compiler Runtime (MCR) 9.11: The qCS installer will automatically download MCR from Mathworks website. If it is already installed, the system will detect the installed path (Windows OS only). Minimum 2 GB of disk capacity is required to accommodate MCR installation. Any installation directory is permitted for MCR.
+
 - Create a parent folder for qCS installation directory since qCS deletes its parent folder upon uninstallation.
 
 # Setup:
-- All instructions related to the installation and permissions are provided in the README file within the release.
+## Linux Instructions
+### Preparation for Installation:
+- Extract tar.gz file
+- * R-click
+- * Open with Archive Manager
+- * Select folder
+- * L-click [Extract]
+- * Select location
+- * L-click [Extract]
+	
+2. Open folder (example: "qCS_CentOS_2-0")
+	a. R-click "qCS_installer.install"
+	b. Properties
+	c. Tab: Permissions
+	d. Check: Allow executing file as program
+	e. Close
 
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
