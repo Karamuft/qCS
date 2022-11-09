@@ -17,12 +17,12 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 ## Linux Instructions
 ### Preparation for Installation:
 1. Extract tar.gz file
-	* R-click
-	* Open with Archive Manager
-	* Select folder
-	* L-click [Extract]
-	* Select location
-	* L-click [Extract]
+	- R-click
+	- Open with Archive Manager
+	- Select folder
+	- L-click [Extract]
+	- Select location
+	- L-click [Extract]
 	
 2. Open folder (example: "qCS_CentOS_2-0")
 	* R-click "qCS_installer.install"
