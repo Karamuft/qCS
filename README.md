@@ -1,5 +1,7 @@
 # General Info
-- qCS is a tool to analyze and alter component values of superconducting logic cells such as RSFQ and AQFP cells. It also helps generating critical margin/yield-optimized variants of designed cells by utilizing the following built-in capabilities such as critical margin calculation, parametric yield analysis and critical margin range optimization.
+qCS is a tool to analyze and alter component values of superconducting logic cells such as RSFQ and AQFP cells. It also helps generating critical margin/yield-optimized variants of designed cells by utilizing the following built-in capabilities such as critical margin calculation, parametric yield analysis and critical margin range optimization.
+
+- The current application version has been developed and tested on CentOS 7 and Windows 10.
 
 # Requirements:
 - MATLAB Compiler Runtime (MCR) 9.11: The qCS installer will automatically download MCR from Mathworks website. If it is already installed, the system will detect the installed path (Windows OS only). Minimum 2 GB of disk capacity is required to accommodate MCR installation. Any installation directory is permitted for MCR.
@@ -17,6 +19,10 @@ Copyright (C) 2021 Mustafa Altay Karamuftuoglu, Haolin Cong, and Massoud Pedram
 SPORT lab, University of Southern California, Los Angeles, CA 90089. All rights reserved.
 
 Permission is hereby granted, without written agreement and without license or royalty fees, to use, copy, and modify, this software and its documentation for any non-commercial purpose, provided that the above copyright notice and the following paragraphs appear in all copies of this software, whether in binary form or not. Commercial use of this software requires written agreement which must be obtained from Massoud Pedram <pedram@usc.edu>.
+
+Linux is a registered trademark of Linus Torvalds.
+Windows is a registered trademark of Microsoft Corporation.
+QCustomPlot is the property of Emanuel Eichhammer. All trademarks are the property of their respective owners.
 
 IN NO EVENT SHALL THE AUTHORS OR THE UNIVERSITY OF SOUTHERN CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THEY HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
