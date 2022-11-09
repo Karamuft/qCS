@@ -17,19 +17,49 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 ## Linux Instructions
 ### Preparation for Installation:
 - Extract tar.gz file
-- * R-click
-- * Open with Archive Manager
-- * Select folder
-- * L-click [Extract]
-- * Select location
-- * L-click [Extract]
+* R-click
+* Open with Archive Manager
+* Select folder
+* L-click [Extract]
+* Select location
+* L-click [Extract]
 	
-2. Open folder (example: "qCS_CentOS_2-0")
-	a. R-click "qCS_installer.install"
-	b. Properties
-	c. Tab: Permissions
-	d. Check: Allow executing file as program
-	e. Close
+- Open folder (example: "qCS_CentOS_2-0")
+* R-click "qCS_installer.install"
+* Properties
+* Tab: Permissions
+* Check: Allow executing file as program
+* Close
+
+### Installation:
+- Open folder which contains the installer (example: "qCS_CentOS_2-0")
+* R-click
+* Open Terminal and write the following:
+* $ sudo ./qCS_installer.install
+* Installation wizard appears
+* Install to a directory (example: /home/userName/qCS_x-x where "x-x" is the version number)
+
+### Permissions:
+- Read/Write Permissions: (if there is a permission restriction while trying to open or run the tool after the installation)
+* Open Terminal on (the installed path/application)
+* Put the following commands which will allow you to change the permissions of the files
+* $ sudo chown userName qCS
+* $ sudo chown userName run_qCS.sh
+* $ sudo chown userName jsim
+* $ sudo chown userName jsim_n
+* $ sudo chown userName josim-cli
+* Make sure that they have read and write permissions by checking their properties
+
+- There is an alternative method for setting the permissions altogether.
+* Open Terminal in /userName (Home) directory
+* Run the following command using the installation directory
+* $ sudo chmod -R a+r+w+x /home/userName/qCS_x-x/ (note: "x-x" is the version number)
+  or
+* $ sudo chmod 777 -R /home/userName/qCS_x-x/
+* If Terminal is open in the folder that contains the tool folder qCS_x-x, run the following command instead
+* $ sudo chmod -R a+r+w+x qCS_x-x/
+  or
+* $ sudo chmod 777 -R qCS_x-x/
 
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
