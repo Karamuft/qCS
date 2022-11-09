@@ -54,8 +54,8 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 	* `sudo chmod -R a+r+w+x /home/userName/qCS_x-x/` (note: "x-x" is the version number)
 	* `sudo chmod 777 -R /home/userName/qCS_x-x/`
 	* If Terminal is open in the folder that contains the tool folder qCS_x-x, run one of the following commands instead
-	* `sudo chmod -R a+r+w+x qCS_x-x/`
-	* `sudo chmod 777 -R qCS_x-x/`
+		* `sudo chmod -R a+r+w+x qCS_x-x/`
+		* `sudo chmod 777 -R qCS_x-x/`
 
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
