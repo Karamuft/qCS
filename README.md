@@ -50,13 +50,11 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 	* Make sure that they have read and write permissions by checking their properties
 2. There is an alternative method for setting the permissions altogether.
 	* Open Terminal in /userName (Home) directory
-	* Run the following command using the installation directory
+	* Run one of the following commands using the installation directory
 	* `sudo chmod -R a+r+w+x /home/userName/qCS_x-x/` (note: "x-x" is the version number)
-	```or```
 	* `sudo chmod 777 -R /home/userName/qCS_x-x/`
-	* If Terminal is open in the folder that contains the tool folder qCS_x-x, run the following command instead
+	* If Terminal is open in the folder that contains the tool folder qCS_x-x, run one of the following commands instead
 	* `sudo chmod -R a+r+w+x qCS_x-x/`
-	```or```
 	* `sudo chmod 777 -R qCS_x-x/`
 
 # Reference:
