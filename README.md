@@ -10,3 +10,6 @@
 
 # License:
 - Refer to the LICENSE information on the qCS user interface.
+
+# Reference:
+- There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
