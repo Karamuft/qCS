@@ -16,7 +16,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 # Setup:
 ## Linux Instructions
 ### Preparation for Installation:
-- Extract tar.gz file
+1. Extract tar.gz file
 	* R-click
 	* Open with Archive Manager
 	* Select folder
@@ -24,7 +24,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 	* Select location
 	* L-click [Extract]
 	
-- Open folder (example: "qCS_CentOS_2-0")
+2. Open folder (example: "qCS_CentOS_2-0")
 	* R-click "qCS_installer.install"
 	* Properties
 	* Tab: Permissions
@@ -32,7 +32,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 	* Close
 
 ### Installation:
-- Open folder which contains the installer (example: "qCS_CentOS_2-0")
+1. Open folder which contains the installer (example: "qCS_CentOS_2-0")
 	* R-click
 	* Open Terminal and write the following:
 	$ sudo ./qCS_installer.install
@@ -40,7 +40,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 	* Install to a directory (example: /home/userName/qCS_x-x where "x-x" is the version number)
 
 ### Permissions:
-- Read/Write Permissions: (if there is a permission restriction while trying to open or run the tool after the installation)
+1. Read/Write Permissions: (if there is a permission restriction while trying to open or run the tool after the installation)
 	* Open Terminal on (the installed path/application)
 	* Put the following commands which will allow you to change the permissions of the files
 	$ sudo chown userName qCS
@@ -50,7 +50,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 	$ sudo chown userName josim-cli
 	* Make sure that they have read and write permissions by checking their properties
 
-- There is an alternative method for setting the permissions altogether.
+2. There is an alternative method for setting the permissions altogether.
 	* Open Terminal in /userName (Home) directory
 	* Run the following command using the installation directory
 	$ sudo chmod -R a+r+w+x /home/userName/qCS_x-x/ (note: "x-x" is the version number)
