@@ -34,7 +34,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 1. Open folder which contains the installer (example: "qCS_CentOS_2-0")
 	* R-click
 	* Open Terminal and write the following:
-	* `sudo ./qCS_installer.install`
+		* `sudo ./qCS_installer.install`
 	* Installation wizard appears
 	* Install to a directory (example: /home/userName/qCS_x-x where "x-x" is the version number)
 
@@ -42,17 +42,17 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 1. Read/Write Permissions: (if there is a permission restriction while trying to open or run the tool after the installation)
 	* Open Terminal on (the installed path/application)
 	* Put the following commands which will allow you to change the permissions of the files
-	* `sudo chown userName qCS`
-	* `sudo chown userName run_qCS.sh`
-	* `sudo chown userName jsim`
-	* `sudo chown userName jsim_n`
-	* `sudo chown userName josim-cli`
+		* `sudo chown userName qCS`
+		* `sudo chown userName run_qCS.sh`
+		* `sudo chown userName jsim`
+		* `sudo chown userName jsim_n`
+		* `sudo chown userName josim-cli`
 	* Make sure that they have read and write permissions by checking their properties
 2. There is an alternative method for setting the permissions altogether.
 	* Open Terminal in /userName (Home) directory
 	* Run one of the following commands using the installation directory
-	* `sudo chmod -R a+r+w+x /home/userName/qCS_x-x/` (note: "x-x" is the version number)
-	* `sudo chmod 777 -R /home/userName/qCS_x-x/`
+		* `sudo chmod -R a+r+w+x /home/userName/qCS_x-x/` (note: "x-x" is the version number)
+		* `sudo chmod 777 -R /home/userName/qCS_x-x/`
 	* If Terminal is open in the folder that contains the tool folder qCS_x-x, run one of the following commands instead
 		* `sudo chmod -R a+r+w+x qCS_x-x/`
 		* `sudo chmod 777 -R qCS_x-x/`
