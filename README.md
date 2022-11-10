@@ -94,11 +94,11 @@ SPORT lab (https://sportlab.usc.edu/), University of Southern California, Los An
 Permission is hereby granted, without written agreement and without license or royalty fees, to use, copy, and modify, this software and its documentation for any non-commercial purpose, provided that the above copyright notice and the following paragraphs appear in all copies of this software, whether in binary form or not. Commercial use of this software requires written agreement which must be obtained from Massoud Pedram <pedram@usc.edu>.
 
 All trademarks are the property of their respective owners.
-Linux is a registered trademark of Linus Torvalds.
-Windows is a registered trademark of Microsoft Corporation.
-JSIM is a registered trademark of XX.
-JoSIM is a registered trademark of XX.
-MATLAB is a registered trademark of The MathWorks, Inc.
+- Linux is a registered trademark of Linus Torvalds.
+- Windows is a registered trademark of Microsoft Corporation.
+- JSIM is a registered trademark of XX.
+- JoSIM is a registered trademark of XX.
+- MATLAB is a registered trademark of The MathWorks, Inc.
 
 IN NO EVENT SHALL THE AUTHORS OR THE UNIVERSITY OF SOUTHERN CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THEY HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
