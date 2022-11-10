@@ -105,7 +105,7 @@ All trademarks are the property of their respective owners.
 - Windows is a registered trademark of Microsoft Corporation.
 - MATLAB is a registered trademark of The MathWorks, Inc.
 - JSIM is originally written by Emerson S. Fang as part of his work in Ted Van Duzer's lab at the University of California, Berkeley.
-- JoSIM: Copyright (c) 2020 Johannes Delport
+- JoSIM is originally written by Johannes Delport at Stellenbosch University, Stellenbosch.
 - PJSIM is modified version of the JSIM circuit simulator and it is developed by Yamanashi Group, Yokohama National University, Yokohama.
 
 IN NO EVENT SHALL THE AUTHORS OR THE UNIVERSITY OF SOUTHERN CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THEY HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
