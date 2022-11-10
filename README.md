@@ -4,9 +4,9 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 - The current application version has been developed and tested on CentOS 7 and Windows 10.
 
 # Developers:
-- Mustafa Altay Karamuftuoglu: <karamuft@usc.edu>
-- Haolin Cong: <haolinco@usc.edu>
-- Massoud Pedram: <pedram@usc.edu>
+- Mustafa Altay Karamuftuoglu (<karamuft@usc.edu>)
+- Haolin Cong (<haolinco@usc.edu>)
+- Massoud Pedram (<pedram@usc.edu>)
 
 # Requirements:
 - Certificates (Linux OS only): If the installer doesn't start and the error is about certificates, use the following command:
@@ -61,6 +61,27 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 	* If Terminal is open in the folder that contains the tool folder qCS_x-x, run one of the following commands instead
 		* `sudo chmod -R a+r+w+x qCS_x-x/`
 		* `sudo chmod 777 -R qCS_x-x/`
+
+## Windows Instructions
+### Preparation for Installation:
+1. Extract zip file (example: "qCS_Windows_2-0.zip")
+	* R-click
+	* Extract using any installed Zip program
+
+### Installation:
+1. Open folder which contains the installer (example: "qCS_Windows_2-0")
+	* L-click twice on "qCS_installer.exe"
+	* Click "Yes" if a permission pop-up window appears
+	* Installation wizard appears
+	* Install to any directory that does not require administrator permissions
+	* Remove the tick in the checkbox for a shortcut if it is initially selected
+
+### Permissions:
+1. Read/Write Permissions: Make sure that the files stated below have read and write permissions on the installed path/application directory.
+	* qCS.exe
+	* jsim.exe
+	* jsim_n.exe
+	* josim-cli.exe
 
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
