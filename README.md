@@ -11,7 +11,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 # Requirements:
 - Certificates (Linux OS only): If the installer doesn't start and the error is about certificates, use the following command
 	* `sudo ln -s /etc/ssl/certs/ca-bundle.trust.crt /etc/ssl/certs/ca-certificates.crt`
-- JoSIM (Linux OS only): It is user's responsibility to satisfy JoSIM requirements (setting up the environment and installing packages). For details, visit [official JoSIM github](https://joeydelp.github.io/JoSIM/#linux)
+- JoSIM (Linux OS only): It is user's responsibility to satisfy JoSIM requirements (setting up the environment and installing packages). For details, visit [official JoSIM github page](https://joeydelp.github.io/JoSIM/#linux).
 - MATLAB Compiler Runtime (MCR) 9.11: The qCS installer will automatically download MCR from Mathworks website. If it is already installed, the system will detect the installed path (Windows OS only). Minimum 2 GB of disk capacity is required to accommodate MCR installation. Any installation directory is permitted for MCR.
 - Create a parent folder for qCS installation directory since qCS deletes its parent folder upon uninstallation.
 
@@ -82,9 +82,9 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
-	- Book chapter: Mustafa Altay Karamuftuoglu, Soheil Nazar Shahsavani and Massoud Pedram, "Margin Optimization of Single Flux Quantum Logic Cells", submitted.
-	- Algorithm paper: Mustafa Altay Karamuftuoglu, Soheil Nazar Shahsavani and Massoud Pedram, "Margin and Yield Optimization of Single Flux Quantum Logic Cells Using Swarm Optimization Techniques", IEEE TAS, accepted.
-	- Tool paper: Mustafa Altay Karamuftuoglu, Haolin Cong and Massoud Pedram, "qCS: Design Analysis and Optimization Tool for Superconductor Circuits", in preparation.
+	* Book chapter: Mustafa Altay Karamuftuoglu, Soheil Nazar Shahsavani and Massoud Pedram, "Margin Optimization of Single Flux Quantum Logic Cells", submitted.
+	* Algorithm paper: Mustafa Altay Karamuftuoglu, Soheil Nazar Shahsavani and Massoud Pedram, "Margin and Yield Optimization of Single Flux Quantum Logic Cells Using Swarm Optimization Techniques", IEEE TAS, accepted.
+	* Tool paper: Mustafa Altay Karamuftuoglu, Haolin Cong and Massoud Pedram, "qCS: Design Analysis and Optimization Tool for Superconductor Circuits", in preparation.
 
 # License:
 Copyright (C) 2021 Mustafa Altay Karamuftuoglu, Haolin Cong, and Massoud Pedram
