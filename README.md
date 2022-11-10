@@ -6,7 +6,7 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 # Developers:
 - Mustafa Altay Karamuftuoglu (<karamuft@usc.edu>)
 - Haolin Cong (<haolinco@usc.edu>)
-- Faculty advisor: Massoud Pedram (<pedram@usc.edu>)
+- **Faculty advisor:** Massoud Pedram (<pedram@usc.edu>)
 
 # Requirements:
 - Certificates (Linux OS only): If the installer doesn't start and the error is about certificates, use the following command
