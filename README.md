@@ -1,5 +1,5 @@
 # General Info
-qCS is a tool to analyze and alter component values of superconducting logic cells such as RSFQ and AQFP cells. It also helps generating critical margin/yield-optimized variants of designed cells by utilizing the following built-in capabilities such as critical margin calculation, parametric yield analysis and critical margin range optimization.
+qCS is a tool to analyze and alter component values of superconductor-based logic cells such as RSFQ and AQFP cells. It also helps generate critical margin/yield-optimized variants of designed cells by utilizing the following built-in capabilities such as critical margin calculation, parametric yield analysis and critical margin range optimization.
 
 - The current application version has been developed and tested on CentOS 7 and Windows 10.
 
