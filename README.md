@@ -89,7 +89,7 @@ qCS is a tool to analyze and alter component values of superconducting logic cel
 # Important links:
 - [ColdFlux](https://coldflux.usc.edu/)
 - [SPORT Lab](https://sportlab.usc.edu/)
-- [JSIM and JSIM\_n](https://www.sun-magnetics.com/resources/) (under “Free Tools”)
+- [JSIM and JSIM\_n (1)](https://github.com/coldlogix/jsim) or [JSIM and JSIM\_n (2)](https://www.sun-magnetics.com/resources/) (under “Free Tools”)
 - [JoSIM](https://github.com/JoeyDelp/JoSIM)
 - [PJSIM](http://www.nashilab.ynu.ac.jp/eng/pjsim.html)
 
