@@ -59,6 +59,14 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 		* `sudo chmod -R a+r+w+x qCS_x-x/`
 		* `sudo chmod 777 -R qCS_x-x/`
 
+### Run:
+1. Go to the installed path/application folder and locate the "run_qCS.sh" file.
+2. To run qCS after making sure the permissions are set, the following command will set the path to open the app. This information is given in additional readme file located in "application" folder after the installation. The last part of the command is the path of the installed compiler and its released version. qCS 2.0 uses R2021b (9.11) MATLAB Runtime Version.
+	* `sudo ./run_qCS.sh /usr/local/MATLAB/MATLAB_Runtime/v911`
+3. qCS application opens after a few seconds of delay
+4. qCS user guide is located under Manual Tab on qCS application.
+5. To use a qCS output file as data input, in the netlist, comment out: *.FILE
+
 ## Windows Instructions
 ### Preparation for Installation:
 1. Extract zip file (example: "qCS_Windows_2-0.zip")
@@ -79,6 +87,13 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 	* jsim.exe
 	* jsim_n.exe
 	* josim-cli.exe
+
+### Run:
+1. qCS.exe is located in the installed path/application folder. Run qCS.exe to start the tool.
+2. To run qCS after making sure the permissions are set, use the main executable file rather than its shortcut. Running the app via shortcut will access to the wrong directory and the simulations will fail. Running on the administrator for Windows OS is recommended.
+3. qCS application opens after a few seconds of delay
+4. qCS user guide is located under Manual Tab on qCS application.
+5. To use a qCS output file as data input, in the netlist, comment out: *.FILE
 
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
