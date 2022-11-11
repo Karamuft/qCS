@@ -16,7 +16,7 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 - Create a parent folder for qCS installation directory since qCS deletes its parent folder upon uninstallation.
 
 # Setup:
-## Linux Instructions
+## RHEL 7 Instructions
 ### Preparation for Installation:
 1. Extract tar.gz file
 	* R-click
