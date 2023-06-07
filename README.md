@@ -181,7 +181,7 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 # Reference:
 - There are two papers and a book chapter for qCS. One paper and the book chapter are for its algorithm with performance metrics and the second paper is for the tool itself. The related links for them will be provided here once they are published.
 	* Book chapter: Karamuftuoglu, M.A., Nazar Shahsavani, S., Pedram, M. (2023). Margin Optimization of Single Flux Quantum Logic Cells. In: Topaloglu, R.O. (eds) Design Automation of Quantum Computers. Springer, Cham. https://doi.org/10.1007/978-3-031-15699-1_6
-	* Algorithm paper: M. A. Karamuftuoglu, S. N. Shahsavani and M. Pedram, "Margin and Yield Optimization of Single Flux Quantum Logic Cells Using Swarm Optimization Techniques," in IEEE Transactions on Applied Superconductivity, vol. 33, no. 1, pp. 1-10, Jan. 2023, Art no. 1300110, doi: 10.1109/TASC.2022.3223883
+	* Algorithm paper: M. A. Karamuftuoglu, S. N. Shahsavani and M. Pedram, "Margin and Yield Optimization of Single Flux Quantum Logic Cells Using Swarm Optimization Techniques," in IEEE Transactions on Applied Superconductivity, vol. 33, no. 1, pp. 1-10, Jan. 2023, Art no. 1300110, https://doi.org/10.1109/TASC.2022.3223883  
 	* Tool paper: Mustafa Altay Karamuftuoglu, Haolin Cong and Massoud Pedram, "qCS: Design Analysis and Optimization Tool for Superconductor Circuits", in preparation.
 
 # Important links:
