@@ -61,7 +61,7 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 
 ### Run:
 1. Go to the installed path/application folder and locate the "run_qCS.sh" file.
-2. To run qCS after making sure the permissions are set, the following command will set the path to open the app. This information is given in additional readme file located in "application" folder after the installation. The last part of the command is the path of the installed compiler and its released version. qCS 2.0 uses R2021b (9.11) MATLAB Runtime Version.
+2. To run qCS after making sure the permissions are set, the following command will set the path to open the app. This information is given in additional readme file located in "application" folder after the installation. The last part of the command is the path of the installed compiler and its released version. qCS 2.1 uses R2022b (9.13) MATLAB Runtime Version.
 	* `sudo ./run_qCS.sh /usr/local/MATLAB/MATLAB_Runtime/R2022b`
 3. qCS application opens after a few seconds of delay
 4. qCS user guide is located under Manual Tab on qCS application.
@@ -112,7 +112,7 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 
 ### Run:
 1. Go to the installed path/application folder and locate the "run_qCS.sh" file.
-2. To run qCS after making sure the permissions are set, the following command will set the path to open the app. This information is given in additional readme file located in "application" folder after the installation. The last part of the command is the path of the installed compiler and its released version. qCS 2.0 uses R2021b (9.11) MATLAB Runtime Version.
+2. To run qCS after making sure the permissions are set, the following command will set the path to open the app. This information is given in additional readme file located in "application" folder after the installation. The last part of the command is the path of the installed compiler and its released version. qCS 2.1 uses R2022b (9.13) MATLAB Runtime Version.
 	* `sudo ./run_qCS.sh /usr/local/MATLAB/MATLAB_Runtime/R2022b`
 3. qCS application opens after a few seconds of delay
 4. qCS user guide is located under Manual Tab on qCS application.
@@ -123,12 +123,6 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 1. Extract zip file (example: "qCS_MacOS_2-1.zip")
 	* R-click
 	* Extract using any installed Zip program
-2. Open folder (example: "qCS_Debian_2-1")
-	* R-click "qCS_installer.install"
-	* Properties
-	* Tab: Permissions
-	* Check: Allow executing file as program
-	* Close
 
 ### Installation:
 1. Open folder which contains the installer (example: "qCS_MacOS_2-1")
@@ -144,7 +138,7 @@ qCS is a tool to analyze and alter component values of superconductor-based logi
 
 ### Run:
 1. Go to the installed path/application folder and locate the "run_qCS.sh" file.
-2. To run qCS after making sure the permissions are set, the following command will set the path to open the app. This information is given in additional readme file located in "application" folder after the installation. The last part of the command is the path of the installed compiler and its released version. qCS 2.0 uses R2021b (9.11) MATLAB Runtime Version.
+2. To run qCS after making sure the permissions are set, the following command will set the path to open the app. This information is given in additional readme file located in "application" folder after the installation. The last part of the command is the path of the installed compiler and its released version. qCS 2.1 uses R2022b (9.13) MATLAB Runtime Version.
 	* `sudo ./run_qCS.sh /usr/local/MATLAB/MATLAB_Runtime/R2022b`
 3. qCS application opens after a few seconds of delay
 4. qCS user guide is located under Manual Tab on qCS application.
