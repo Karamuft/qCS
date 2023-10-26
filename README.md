@@ -1,5 +1,5 @@
 # General Info
-qCS (quantum Circuit Studio) is a tool to analyze and alter component values of superconductor-based logic cells such as RSFQ and AQFP cells. It also helps generate critical margin/yield-optimized variants of designed cells by utilizing the following built-in capabilities such as critical margin calculation, parametric yield analysis and critical margin range optimization.
+qCS (quantum Circuit Studio) is a tool to analyze and alter component values of superconductor-based logic families including RSFQ and AQFP cells. It also helps generate critical margin/yield-optimized variants of designed cells by utilizing the following built-in capabilities such as critical margin calculation, parametric yield analysis and critical margin range optimization.
 
 - The current application version has been tested on CentOS 7, Ubuntu 22.04.2 LTS, macOS Big Sur (Version 11.6.1), Windows 10 and Windows 11.
 
